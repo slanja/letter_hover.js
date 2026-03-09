@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LetterHover.js | Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="text-changing title">LetterHover.js</h1>
+    <p class="subtitle">Bringing life to minimalist typography.</p>
+    
+    <div class="content">
+      <p class="text-changing description">
+        This utility was born from a simple idea: making static text feel responsive 
+        and alive. By splitting text into individual interactive characters, 
+        LetterHover creates a subtle engagement layer for your UI. It's lightweight, 
+        accessible, and designed to fit perfectly into any clean, modern portfolio.
+      </p>
+    </div>
+  </div>
+
+  <script type="module">
+    import { initLetterHover } from '../letter_hover.js';
+
+    /* Initialize LetterHover.js with custom settings */
+    initLetterHover('.text-changing', {
+      hoverColor: '#4ade80',
+      defaultColor: 'inherit',
+      duration: 350
+    });
+  </script>
+</body>
+</html>
