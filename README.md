@@ -2,6 +2,8 @@
 
 A lightweight, zero-dependency JavaScript utility that transforms static text into interactive, letter-by-letter hover experiences. Perfect for landing pages, headers, and creative portfolios.
 
+![LetterHover.js Demo](demo/demo.gif)
+
 ## Features
 
 - 🚀 **Lightweight:** Minimal footprint, no external dependencies.
